@@ -1,0 +1,19 @@
+{
+    "name": "qa-tree",
+    "version": "1.0.0",
+    "private": true,
+
+    "scripts": {
+
+        "check":
+            "dotenv -e .env -- k6 run runners/check.js",
+
+        "fast-check":
+            "dotenv -e .env -- k6 run runners/fast_check.js"
+    },
+
+    "devDependencies": {
+
+        "dotenv-cli": "^7.4.2"
+    }
+}
