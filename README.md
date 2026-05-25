@@ -196,9 +196,10 @@ http_req_duration:
 
 # Stack
 
+```
 * k6
 * JavaScript
 * dotenv-cli
+```
 
-```
-```
+
