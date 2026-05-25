@@ -13,6 +13,7 @@ Designed for:
 
 # Project Structure
 
+```text
 QA_TREE/
 │
 ├── config/
@@ -39,6 +40,7 @@ QA_TREE/
 ├── .env
 ├── .gitignore
 └── README.md
+```
 
 ---
 
